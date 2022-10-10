@@ -1,0 +1,55 @@
+@media screen and (min-width: 1024px) {
+
+    .nav-index {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--negro2);
+        font-family: 'Marcellus', serif;
+        position: sticky;
+        font-size: 1.3em;
+        padding: 1rem;
+    }
+
+    .logo {
+        padding: 1rem;
+    }
+
+    .logo img {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    .logo i {
+        display: none;
+    }
+
+    .menu {
+        background-color: var(--negro2);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        transform: translateY(0);
+    }
+
+    .menu-hr {
+        display: none;
+    }
+
+    .nav-index-button {
+        background-color: var(--azuloscuro);
+    }
+
+    .nav-index {
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+    }
+
+    .nav-index a:hover {
+        background-color: #0B3860;
+        color: var(--blanco);
+        width: 100%;
+    }
+}

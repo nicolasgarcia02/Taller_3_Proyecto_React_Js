@@ -1,0 +1,80 @@
+.fondo-login {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  height: 50em;
+  margin: 0;
+  padding: 0;
+  background-image: url(./fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ .container-form .svg {
+  width: 100%;
+}
+
+.image {
+  margin-top: -120px;
+  padding: 20px;
+  display: flex;
+  float: left;
+  margin-right: 50%;
+  width: 200px;
+}
+.login-box{
+  padding-top: 1em;
+}
+.login-box input {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  width: 80%;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  width: 50%;
+  height: 40px;
+  background: #0e0203;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.container-form {
+  color: var(--blanco);
+  display: flex;
+  flex-direction: column;
+  height: 425px;
+  width: 400px;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(76, 140, 192, 0.85);
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.container-form span {
+  width: 65%;
+  margin-top: 20px;
+}
+
+.container-form p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.container-form a {
+  color: var(--negro2);
+  text-decoration: none;
+}

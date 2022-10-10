@@ -1,0 +1,208 @@
+@media only screen and (min-width: 1024px) {
+
+    .dash-nav {
+        margin-top: 0px;                      
+        width: 10%;
+        min-width: 20px;
+        max-width: 380px;            
+        height: 200%;                    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .dash-nav .logo {
+        background-color: #0B3860;
+        background-image: url(Group\ 200.svg);
+        background-size: 100%;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 70%;
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
+    .usuario {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+
+    .menu {
+        background-color: var(--azulnegro);
+        height: 73%;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dash-nav .menu .item div {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .dash-nav .menu .item div:hover {
+        background-color: var(--azuloscuro);
+    }
+
+    .dash-nav .menu .item .color {
+        background-color: var(--azuloscuro);
+    }
+
+    .dash-nav .menu .item div a {
+        display: flex;
+        text-decoration: none;
+        color: var(--blanco);
+        padding-left: 1rem;
+    }
+
+    .dash-nav .exit {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: var(--azulnegro);
+    }
+
+    .dash-nav .exit a {
+        display: flex;
+        text-decoration: none;
+        color: var(--blanco);
+        padding-left: 1rem;
+    }
+    /*FORMULARIO*/
+
+    
+    .fondo-dashboard{
+        
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .form-dashboard {
+        font-size: 23px;
+        display: grid;
+        grid-template:
+            "titulo titulo titulo" 10%
+            "column-1 column-2 column-3" 65%
+            "column-1 footer footer" 25%/
+            20% 40% 40%;
+    }
+
+    .input-dashboard {
+        width: 80%;
+        padding: 5px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        font-size: 20px;
+    }
+
+    .lala-dashboard {
+        width: 10em;
+
+    }
+
+    .download-dashboard {
+        width: 10em;
+        gap: 30px;
+    }
+
+    #icon-1-dashboard {
+        display: flex;
+    }
+
+    .radio-inline-dashboard{
+        flex-direction: row;
+    }
+
+    .checks-dashboard{
+        display: flex;
+        width: 10em;
+        margin-top: -10px;
+        
+    }
+
+    .form-check-dashboard{
+        height: 70px;
+        padding: 2px;
+    }
+
+    .titulo-dashboard {
+        grid-area: titulo;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .column-1-dashboard {
+        grid-area: column-1;
+        padding: 20px;
+    }
+
+    .column-2-dashboard {
+        grid-area: column-2;
+        padding: 15px;
+    }
+
+    .column-3-dashboard {
+        grid-area: column-3;
+        padding: 15px;
+    }
+
+    .footer-dashboard {
+        grid-area: footer;
+        padding: 20px;
+        margin-top: -60px;
+    }
+
+    .contraseñas-dashboard {
+        margin-top: -20px;
+        display: flex;
+        width: 100%;
+    }
+
+    .contraseña-dashboard {
+        width: 50%;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .confirmar-dashboard {
+        width: 50%;
+    }
+
+    .button-dashboard {
+        width: 20%;
+        height: 45px;
+    }
+
+    .Update-password{
+        display: flex;
+        background: var(--azulnegro);
+        text-decoration: none;
+        border-radius: 5px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 10em;
+        margin-left: 2.5em;
+        top: -11em; 
+       
+    }
+
+    
+
+}
